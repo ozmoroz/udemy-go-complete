@@ -1,11 +1,18 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"go.inferGopath": false,
-		"go.useLanguageServer": true
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "go.inferGopath": false,
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+      "go-langserver": "gopls"
+    },
+    "go.languageServerExperimentalFeatures": {
+      "format": true,
+      "autoComplete": true
+    }
+  }
 }
